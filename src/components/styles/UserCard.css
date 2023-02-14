@@ -1,0 +1,99 @@
+.userCard {
+  border:  1px solid rgba(99, 11, 11, 0.432);
+  gap: 10px;
+  border-radius: 4px;
+  padding: 10px;
+  min-width: 280px;
+  height: 95%;
+  display: grid;  
+  align-items: center;
+ 
+
+}
+
+
+#userBackgrund {
+  background-color: none;
+}
+
+
+.userCard__name {
+  font-size: 23px;
+  padding: 8px 0 0 8px ;
+  margin-bottom: 5px;
+}
+
+.userCard__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 8px;
+  gap: 15px;
+}
+
+.userCard__item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+}
+
+.userCard__email {
+  color: brown;
+}
+
+.userCard__freeDay {
+  color: brown;
+}
+
+.userCard__Line { 
+  position: relative;
+  color: brown;
+  
+}
+.userCard__btn {
+  display: flex;
+  gap: 9px;
+  justify-content: flex-end;   
+
+}
+
+
+.btn {
+  background-color: brown;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: rgba(87, 7, 7, 0.493);
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+
+
+.UserCard__trash {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.UserCard__edit {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userBackgrund:hover {
+  background-color: brown;
+}

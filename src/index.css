@@ -1,0 +1,28 @@
+:root {
+  --font-zize : 'roboto', sans-serif;
+  --color__btn : #555A88;
+  --c :  #797d9e;
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+  box-sizing: 18px;
+}
+
+*, *::after *::before {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,15 @@
+.UsersList {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 0.01fr));
+  align-items: center;
+  justify-items: center;
+  gap: 20px;  
+  margin-top: 50px;
+  margin: 5px;
+
+}
+  
+
+  
