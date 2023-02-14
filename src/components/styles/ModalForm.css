@@ -17,11 +17,7 @@
 
 .modalForm__form {
   position: relative;
-  background-color: #fff;  
-  padding: 28px;
-  width: 300px;
-  display: flex;
-  flex-direction: column;
+  background-image: url(/1.jpg);  flex-direction: column;
   gap:10px;
   border-radius: 4px;  
 }
