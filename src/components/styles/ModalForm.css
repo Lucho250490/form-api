@@ -17,7 +17,11 @@
 
 .modalForm__form {
   position: relative;
-  background-image: url(/1.jpg);  flex-direction: column;
+  background-image:url(/1.jpg);  
+  padding: 28px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
   gap:10px;
   border-radius: 4px;  
 }
@@ -44,7 +48,7 @@
 
 .modalForm__div {
   line-height: 30px;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.199);
   
 }
 
@@ -57,8 +61,11 @@
 .modalForm__input {
   width: 93%; 
   padding: 9px;
-  outline: none;
+
+  outline: none;border: none;
+  border-radius: 4px;
   font-family: var(--font-zize);
+  background-color: none;
 }
 
 .modalForm__btn {
